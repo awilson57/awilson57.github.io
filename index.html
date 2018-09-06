@@ -1,18 +1,11 @@
-<!doctype html>
-<html>
-	<head>
-		<title>awilson57</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	<body>
-		<h1>awilson57</h1>
-		<p>
-			This is a simple web page for <a href="https://murraystate.instructure.com/courses/1326465">CSC-425</a>. My goals this semester are:
-		</p>
-		<ul>
-			<li> Learning more about web applications. </li>
-			<li> Messing with computers. </li>
-			<li> Having a good semester. </li>
-		</ul>
-	</body>
-</html>
+
+---
+title: awilson57's projects
+layout: main
+---
+
+{% for post in site.posts %}
+  <h2><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
+  {{ post.excerpt }}
+  <a href="{{site.baseurl}}{{post.url}}">Read More</a>
+{% endfor %}
