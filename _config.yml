@@ -4,7 +4,7 @@ kramdown:
  syntax_highlighter: rouge
 collections:
  projects:
- output:true
+  output: true
 defualts:
  scope:
  path: "awilson57.github.io/images/"
