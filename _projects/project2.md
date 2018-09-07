@@ -4,7 +4,7 @@ title: Project 1
 course-number: CSC-425
 description: Forking a project on Github and completing it
 image: "/awilson57.github.io/_images/screenshot(4).png"
-topics: Spark framework, Travis, Heroku
+topics: [Spark framework, Travis, Heroku]
 ---
 
 ## Project 1
