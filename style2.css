@@ -12,9 +12,9 @@ a{
 }
 #list1{
 	position: relative;
-	width: 250px;
-	height: 350px;
-	padding: 50px;
+	width: 50px;
+	height: 60px;
+	padding: 10px;
 	border: 1px solid black;
-	left: 25px;
+	left: 15px;
 }
