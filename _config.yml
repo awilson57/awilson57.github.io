@@ -7,6 +7,6 @@ collections:
   output:true
 defualts:
  scope:
- path: "awilson57.githug.io/images/"
+ path: "awilson57.github.io/images/"
  values:
  image: true
