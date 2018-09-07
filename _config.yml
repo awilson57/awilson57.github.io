@@ -5,3 +5,8 @@ kramdown:
 collections:
  projects:
   output:true
+defualts:
+ scope:
+ path: "awilson57.githug.io/images/"
+ values:
+ image: true
