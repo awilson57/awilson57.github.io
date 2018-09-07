@@ -6,14 +6,16 @@ layout: main
 {% for project in site.projects %}
   <h3><a href="{{site.baseurl}}{{project.url}}">{{project.title}}</a></h3>
   <ul>
-    <li>"Course-number: "{{ project.course-number }}</li>
-    <li>"Description: "{{ project.description }}</li>
-    <li>"Image: "{{ project.image }}</li>
-    {% for topics in project.url %}
-      <ul>
-        <li>{{ project.topics }}</li>
-      </ul>
-    {% endfor %}
+    <li>Course-number: {{ project.course-number }}</li>
+    <li>Description: {{ project.description }}</li>
+    <li>Image: {{ project.image }}</li>
+    <li>Topics:
+      {% for topics in project.url %}
+        <ul>
+          <li>{{ project.topics }}</li>
+        </ul>
+      {% endfor %}
+    </li> 
   </ul>
   
 {% endfor %}
