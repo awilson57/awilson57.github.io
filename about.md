@@ -5,12 +5,12 @@ title: About
 
 ## awilson57
 
-This is just a page where you can put whatever content you'd like.
+Hello, my name is Austin Wilson; I'm a junior at Murray State University, 
+and I'm majoring in Computer Science with a minor in History.
 
 ## Contact Information
 
-Here you could, for instance, link to your [GitHub](http://www.github.com/pwright4) or 
-[Twitter](http://www.twitter.com/msupwright4) profiles.
+Here is a link to my [GitHub](http://www.github.com/awilson57).
 
 ## Other Pages
 
