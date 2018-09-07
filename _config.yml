@@ -5,3 +5,8 @@ kramdown:
 collections:
  projects:
   output: true
+defualts:
+ - scope:
+    path: "awilson57.github.io/_images/"
+   values:
+    image: true
